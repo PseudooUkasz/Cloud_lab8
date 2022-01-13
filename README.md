@@ -39,3 +39,8 @@ cd lab8
 docker-compose up -d
 ```
 - Uruchom http://localhost
+
+
+## Uwagi 
+
+- do sciezka do repozytorium musi byc podana z malych liter (pseudooukasz/cloud_lab8) w pliku travis.yml
