@@ -1,0 +1,23 @@
+sudo: required
+language: generic
+
+services:
+  - docker
+
+before_install:
+  - docker build -t PseudoUkasz/Cloud_lab8 Dockerfile.dev .
+
+script:
+  - docker run -e CI=true PseudoUkasz/Cloud_lab8 npm run test
+
+deploy:
+  provider: elasticbeanstalk
+  region: eu-central-1
+  app: fibo
+  env: Fibo-env
+  bucket_name: "elasticbeanstalk-eu-central-1-663079665563"
+  bucket_path: "fibo"
+  on:
+    branch: main
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
