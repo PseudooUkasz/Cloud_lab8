@@ -12,7 +12,8 @@
 
 - Pobierz github repo:
 ```
-git clone https://github.com/PseudooUkasz/lab8
+git clone https://github.com/PseudooUkasz/Cloud_lab8
+
 cd lab8
 docker-compose -f docker-compose.dev.yml up -d
 ```
@@ -22,7 +23,7 @@ docker-compose -f docker-compose.dev.yml up -d
 
 - Pobierz github repo:
 ```
-git clone https://github.com/PseudooUkasz/lab8
+git clone https://github.com/PseudooUkasz/Cloud_lab8
 cd lab8
 npm install
 npm start
@@ -33,7 +34,7 @@ npm start
 
 - Pobierz the github repo:
 ```
-git clone https://github.com/PseudooUkasz/lab8
+git clone https://github.com/PseudooUkasz/Cloud_lab8
 cd lab8
 docker-compose up -d
 ```
