@@ -40,6 +40,8 @@ docker-compose up -d
 ```
 - Uruchom http://localhost
 
+## Efket kocowy 
+http://fibo-env.eba-pueisnxk.eu-central-1.elasticbeanstalk.com/
 
 ## Uwagi 
 
